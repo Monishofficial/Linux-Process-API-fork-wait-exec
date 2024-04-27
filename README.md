@@ -3,20 +3,15 @@
 
 # Linux-Process-API-fork-wait-exec-
 ## Ex02-Linux Process API-fork(), wait(), exec()
-
 # Ex02-OS-Linux-Process API - fork(), wait(), exec()
 # Operating systems Lab exercise
-
 ## AIM:
 To write C Program that uses Linux Process API - fork(), wait(), exec()
-
 ## DESIGN STEPS:
 ### Step 1:
 Navigate to any Linux environment installed on the system or installed inside a virtual environment like virtual box/vmware or online linux JSLinux (https://bellard.org/jslinux/vm.html?url=alpine-x86.cfg&mem=192) or docker.
-
 ### Step 2:
 Write the C Program using Linux Process API - fork(), wait(), exec()
-
 ### Step 3:
 Test the C Program for the desired output.
 
@@ -71,17 +66,8 @@ exit(0);}
 ```
 
 ## OUTPUT
-
 ![image](https://github.com/Monishofficial/Linux-Process-API-fork-wait-exec/assets/149455421/fe4ec4bc-8530-4242-b067-6ec1a767730e)
-
-
-
 ## C Program to execute Linux system commands using Linux API system calls exec() family
-
-
-
-
-
 ```
 #include <stdlib.h>
 #include <sys/wait.h>
@@ -107,14 +93,9 @@ printf("Running ps with execlp. Now with path specified\n");
                 puts("child did not exit successfully\n");
         printf("Done.\n");
         exit(0);}
-
-
 ```
-
 ## OUTPUT
 ![image](https://github.com/Monishofficial/Linux-Process-API-fork-wait-exec/assets/149455421/010f6c26-bc44-4beb-aa38-d5c3bba62426)
-
-
 
 ## RESULT:
 The programs are executed successfully.
